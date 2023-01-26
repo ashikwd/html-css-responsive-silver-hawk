@@ -1,0 +1,470 @@
+@media only screen and (max-width: 1200px) {
+.about-section {
+	padding:70px 0;
+}
+.about-section .about-parrents {
+    flex-direction: column;
+}
+.about-section .about-parrents .about-one {
+    width: 100%;
+}
+.about-section .about-parrents .about-content .pic {
+	text-align:center;
+	padding-bottom:0px;
+}
+.about-section .about-parrents .about-one img {
+    width: 100%;
+}
+.about-section .about-parrents .about-one .img-two {
+	width:97%;
+}
+.about-section .about-parrents .about-one .about-img::before {
+    top: -16px;
+    left: -15px;
+}
+.about-section .about-parrents .about-one .about-img::before {
+    height: 400px;
+    width: 540px;
+}
+.about-section .about-parrents .about-two .about-des {
+    min-width:80%;
+	text-align:center;
+}
+
+
+ .about-section .about-parrents .about-two h2 {
+    text-align:center;
+	padding-top:10px ;
+	padding-bottom:10px;
+	font-size:18px;
+	line-height:24px;
+}
+.about-section .about-parrents .about-two {
+    width: 100%;
+}
+.services-section .Services-parrents { 
+    grid-template-columns: 1fr;
+}
+.services-section {
+    padding: 10px 0 20px 0;
+	
+}
+.services-section .Services-parrents .services-items{
+	padding:15px 0;
+	text-align:center;
+}
+.area-of-section .area-of-parrents {
+    flex-direction: column;
+}
+.services-section .Services-parrents .services-items img {
+	width:100%;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 30%;
+    margin: 0 auto;
+}
+.area-of-section {
+    padding: 50px 0;
+}
+.area-of-section .area-of-parrents .area-one ,
+.area-of-section .area-of-parrents .area-two ,
+.area-of-section .area-of-parrents .area-three {
+	margin-bottom:3%;
+	width:100%;
+}
+.area-of-section .area-of-parrents .area-three{
+	margin-bottom:0px;
+}
+.sub-banner-section {
+    padding: 30px 0 50px 0;
+}
+.sub-banner-section .sub-banner-parrents {
+    flex-direction: column;
+
+}
+.sub-banner-section .sub-banner-parrents .banner-one {
+   width: 100%; 
+   
+}
+.sub-banner-section .sub-banner-parrents .banner-one .tytle h2,
+ .sub-banner-section .sub-banner-parrents .banner-two .tytle h2,
+ .sub-banner-section .sub-banner-parrents .banner-three .tytle h2 {
+    font-size: 16px;
+    line-height: 22px;
+	text-align:center;
+   
+}
+
+.sub-banner-section .sub-banner-parrents .banner-one p,
+ .sub-banner-section .sub-banner-parrents .banner-two p,
+ .sub-banner-section .sub-banner-parrents .banner-three p {
+  text-align:center;
+  margin:0 auto;
+}
+.from-section {
+    padding: 70px 0;
+}
+.from-section .from-parents {
+    flex-direction: column;
+}
+.from-section .from-parents .from {
+    width: 100%;
+}
+.from-section .from-parents .silver-hawk {
+    width: 100%;
+	margin-top:30px;
+}
+.from-section .name, .from-section .email{
+	width:98%;
+	margin-left:0;
+}
+.from-section .submit {
+	padding: 20px 30px 20px 30px;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+ .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+	align-items:center;
+}
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+    right: 44px;
+    top: 63px;
+}
+.manubar-section .navbar-parents .logo {
+	display:none;
+}
+.manubar-section .navbar-parents .manue ul{
+	display:none;
+}
+.gallary-section-pic .gallary-parrents {
+    grid-template-columns: 1fr 1fr;
+}
+
+ .about-section .about-parrents .about-one .about-img::before {
+    height: 170px;
+    width: 230px;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 33%;
+    margin: 0 auto;
+	text-align:center;
+	padding-top:10px;
+}
+.advertizing-section {
+    margin: 70px 0 60px 0;
+}
+.about-section .about-parrents .about-one .about-img::before {
+    height: 400px;
+    width: 540px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+	
+	.banner-section{
+		padding:70px 0;
+	}
+.banner-section .banner-parents .heading-banner h1 {
+    font-size: 50px;
+    line-height: 56px;
+}
+.banner-section .banner-parents .banner-des p {
+    padding-top: 10px;
+}
+.advertizing-section {
+    margin: 40px 0 20px 0;
+}
+.advertizing-section .tytle .pic::before{
+	width:65px;
+	height:1px;
+	bottom:-42%;
+}
+.advertizing-section .tytle .pic::after{
+	width:65px;
+	bottom:-42%;
+	height:1px;
+}
+.advertizing-section .parrents {
+    flex-direction: column;
+	
+}
+.advertizing-section .parrents .one{
+	padding:10px;
+}
+.advertizing-section .parrents .one h4{
+	margin-top:5px;
+}
+.gallary-section {
+    padding: 20px 0;
+}
+.gallary-section .tytle .pic {
+	padding-top:12px;
+}
+.gallary-section .tytle .pic::before {
+	width:60px;
+	bottom:-90%;
+}
+.gallary-section .tytle .pic::after {
+	width:60px;
+	bottom:-90%;
+}
+.gallary-section .gallary-parrents {
+	padding-top:20px;
+}
+.gallary-section .tytle h2 {
+	font-size:22px;
+	line-height:26px;
+}
+.gallary-section .gallary-parrents {
+    grid-template-columns: 1fr 1fr;
+ 
+   
+}
+.gallary-section .gallary-btn .btn a {
+	padding:10px 10px;
+}
+.gallary-section .gallary-btn .btn {
+	margin:25px 14px;
+}
+
+.area-of-section .area-of-parrents .area-one ,
+.area-of-section .area-of-parrents .area-two ,
+.area-of-section .area-of-parrents .area-three {
+	margin-bottom:4%;	
+}
+.area-of-section .area-of-parrents .area-three {
+ margin-bottom:-2%;
+ }
+ 
+
+.about-section .about-parrents .about-one .about-img::before {
+   height: 141px;
+    width: 200px;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 37%;
+    margin: 0 auto;
+	text-align:center;
+}
+.about-section .about-parrents .about-one .about-img::before {
+    height: 329px;
+    width: 422px;
+	top: -18px;
+    left: -13px;
+}
+.number-section {
+    padding: 50px 0;
+}
+}
+@media only screen and (max-width: 768px) {
+.topbar-section .topbar-parents .topbar-one, 
+.topbar-section .topbar-parents .topbar-two {
+    width: 100%;
+}
+.topbar-section .topbar-parents .topbar-two ul {
+    justify-content: center;
+}
+.topbar-section ul {
+    justify-content: space-between;
+	margin-top:10px;
+}
+.topbar-section .topbar-parents .topbar-one ul li {
+   margin-right: 0px; 
+}
+.banner-section {
+    padding: 65px 0 65px 0;
+}
+.banner-section .banner-parents {
+    justify-content:center;
+}
+.banner-section .banner-parents .banner-conntent {
+    width: 100%;
+	text-align:center;
+}
+.banner-section .banner-parents .heading-banner h1 {
+    font-size: 42px;
+    line-height: 48px;
+}
+.banner-section .banner-parents .banner-des p {
+	text-align:center;
+	margin:0 auto;
+	padding-top:10px;
+	
+}
+.banner-section .banner-parents .banner-btn .color-btn a {
+    padding: 10px 10px;
+}
+.banner-section .banner-parents .banner-btn .transparent-btn a {
+    padding: 10px 14px; 
+}
+ .h2 {
+    font-size: 18px;
+    font-family: OpenSans-Bold;
+    line-height: 24px;
+    color: #090909;
+}
+
+.fotter-section {
+    padding: 60px 0;
+}
+
+.area-of-section .area-of-parrents .area-one ,
+.area-of-section .area-of-parrents .area-two ,
+.area-of-section .area-of-parrents .area-three {
+	margin-bottom:6%;
+	
+}
+ .area-of-section .area-of-parrents .area-three {
+ margin-bottom:-3%;
+ }
+ .about-section .about-parrents .about-one .about-img::before {
+   height: 117px;
+    width: 156px;
+}
+.about-section .about-parrents .about-two .about-des {
+    min-width:100%;
+ 
+}
+.gallary-section .gallary-parrents {
+    grid-template-columns: 1fr ; 
+}
+.gallary-section-pic .gallary-parrents {
+    grid-template-columns: 1fr;
+}
+.description-section .discription-parrents h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 49%;
+    margin: 0 auto;
+	text-align:center;
+}
+.about-section .about-parrents .about-one .about-img::before {
+    height: 253px;
+    width: 363px;
+}
+}
+@media only screen and (max-width: 660px) {
+
+.about-section .about-parrents .about-one .about-img::before {
+    height: 218px;
+    width: 283px;
+}
+.services-section .Services-parrents {
+    padding-top: 0px;
+}
+.number-section {
+    padding: 40px 0;
+}
+.number-section .parrents .tytle {
+	flex-direction:column;
+}
+.number-section .parrents .tytle span a {
+    font-size: 26px;
+    line-height: 32px;
+}
+.number-section .parrents .tytle p {
+    font-size: 22px;
+    line-height: 28px;
+}
+.socet-section .socet-parrents .content {
+   flex-direction:column;
+}
+}
+@media only screen and (max-width: 500px){
+.topbar-section .topbar-parents .topbar-two ul {
+    justify-content: left;
+}
+.topbar-section .topbar-parents .topbar-two ul li {
+     margin-right: 25px; 
+	 margin-left:0px;
+}
+.description-section .discription-parrents h3 {
+    font-size: 11px;
+    line-height: 18px;
+}
+.description-section {
+    padding: 20px 0;
+}
+.area-of-section .area-of-parrents .area-three {
+    margin-bottom: -6%;
+}
+.services-section .Services-parrents .services-items .services-content p {
+    max-width: 76%;
+    margin: 0 auto;
+	text-align:center;
+}
+.h2 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.banner-section .banner-parents .sub-title h4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.banner-section .banner-parents .heading-banner h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+.banner-section .banner-parents .banner-des p {
+    padding-top: 10px;
+}
+.banner-section .banner-parents .banner-btn .color-btn a {
+    padding: 8px 8px;
+	font-size:12px;
+	line-height:18px;
+}
+.banner-section .banner-parents .banner-btn .transparent-btn a {
+    padding: 8px 12px;
+	font-size:12px;
+	line-height:18px;
+}
+.about-section .about-parrents .about-one .about-img::before {
+   height: 173px;
+    width: 214px;
+}
+.number-section {
+    padding: 20px 0;
+}
+.number-section .parrents .tytle p {
+    font-size: 16px;
+    line-height: 22px;
+}
+.number-section .parrents .tytle {
+	flex-direction:column;
+}
+.number-section .parrents .tytle span a {
+    font-size: 20px;
+    line-height: 26px;
+}
+}
+@media only screen and (max-width: 420px) {
+	.about-section .about-parrents .about-one .about-img::before {
+    height: 130px;
+    width: 150px;
+}
+.h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.socet-section .socet-parrents {
+    font-size: 15px;
+    line-height: 21px;
+}
+.socet-section .socet-parrents a{
+	font-size: 15px;
+    line-height: 21px;
+}
+}
